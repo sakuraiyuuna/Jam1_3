@@ -2,6 +2,9 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="winmain.cpp" />
+    <ClCompile Include="isikwa.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="ソースファイル">
@@ -10,5 +13,8 @@
     <Filter Include="ヘッダーファイル">
       <UniqueIdentifier>{3c3a59cb-7cd1-4bca-8d67-3489e544c4b9}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="koidesuzuho.h" />
   </ItemGroup>
 </Project>
