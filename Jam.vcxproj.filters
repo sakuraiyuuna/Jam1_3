@@ -2,7 +2,34 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="winmain.cpp" />
-    <ClCompile Include="isikwa.cpp">
+    <ClCompile Include="BACKGROUND.cpp">
+      <Filter>ソースファイル\GRAPH</Filter>
+    </ClCompile>
+    <ClCompile Include="GRAPH.cpp">
+      <Filter>ソースファイル\GRAPH</Filter>
+    </ClCompile>
+    <ClCompile Include="option.cpp">
+      <Filter>ソースファイル\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソースファイル\PLAYER</Filter>
+    </ClCompile>
+    <ClCompile Include="hensuuokiba.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="hit.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="key.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="load.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
       <Filter>ソースファイル</Filter>
     </ClCompile>
   </ItemGroup>
@@ -13,8 +40,31 @@
     <Filter Include="ヘッダーファイル">
       <UniqueIdentifier>{3c3a59cb-7cd1-4bca-8d67-3489e544c4b9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソースファイル\BOSS">
+      <UniqueIdentifier>{f5a44e7c-6237-4994-a26f-163f35125a30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\ENEMY">
+      <UniqueIdentifier>{f86a32f1-3353-498a-85ce-9092f6786b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GRAPH">
+      <UniqueIdentifier>{74a468f1-afd4-4cd6-aa2c-143a1fc4246b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\PLAYER">
+      <UniqueIdentifier>{1aa172b4-c0ca-4483-b9d9-29a38ee8df2d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="koidesuzuho.h" />
+    <ClInclude Include="const.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="hensuu.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

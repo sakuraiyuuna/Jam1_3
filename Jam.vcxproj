@@ -86,11 +86,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="isikwa.cpp" />
+    <ClCompile Include="BACKGROUND.cpp" />
+    <ClCompile Include="GRAPH.cpp" />
+    <ClCompile Include="hensuuokiba.cpp" />
+    <ClCompile Include="hit.cpp" />
+    <ClCompile Include="init.cpp" />
+    <ClCompile Include="key.cpp" />
+    <ClCompile Include="load.cpp" />
+    <ClCompile Include="option.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="scene.cpp" />
     <ClCompile Include="winmain.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="koidesuzuho.h" />
+    <ClInclude Include="const.h" />
+    <ClInclude Include="function.h" />
+    <ClInclude Include="hensuu.h" />
+    <ClInclude Include="struct.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
