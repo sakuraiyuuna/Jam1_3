@@ -32,6 +32,9 @@
     <ClCompile Include="scene.cpp">
       <Filter>ソースファイル</Filter>
     </ClCompile>
+    <ClCompile Include="pshot.cpp">
+      <Filter>ソースファイル\PLAYER</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="ソースファイル">

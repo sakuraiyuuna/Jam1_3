@@ -5,6 +5,11 @@
 #include"struct.h"
 
 //•`‰æ‚É‚Â‚¢‚Ä‚ÌƒvƒƒOƒ‰ƒ€
+
+void GRAPH_TITLE() {
+	DrawFormatString(0, 0, GetColor(255, 255, 255), "TITLE");
+}
+
 void GRAPH_JIKI() {
 	DrawRotaGraph(JIKI.x, JIKI.y, 0.1, 0, image[2], TRUE);
 	DrawCircle(JIKI.x, JIKI.y, JIKI.r,

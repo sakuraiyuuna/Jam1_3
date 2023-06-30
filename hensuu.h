@@ -17,6 +17,7 @@
     externéŒ¾‚ğ‚µ‚È‚­‚Ä‚à•Ï”‚ªg‚¦‚Ü‚·B
 */
 
+GL int scenecount;
 GL Player JIKI;
 GL Option FORCE;
 GL int flag[counts];

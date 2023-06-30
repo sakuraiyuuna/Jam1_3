@@ -2,6 +2,7 @@
 //ŠÖ”éŒ¾‚ÍAêŠ‚ª•ª‚©‚é‚æ‚¤‚É‚·‚é‚±‚Æ
 
 //GRAPH.cpp
+void GRAPH_TITLE();
 void GRAPH_JIKI();
 void GRAPH_OPTION();
 void GRAPH_MAIN();

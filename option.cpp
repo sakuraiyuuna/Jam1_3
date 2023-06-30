@@ -58,7 +58,7 @@ void Omove() {
 			}
 		}
 	}
-	if (HIT_ENonEN(JIKI.x + 50 , JIKI.y, JIKI.r, FORCE.x, FORCE.y, FORCE.r) == TRUE) {
+	if (HIT_ENonEN(JIKI.x , JIKI.y, 50, FORCE.x, FORCE.y, FORCE.r) == TRUE) {
 		FORCE.Ocount = 0;
 		FORCE.Oflag = 0;
 	}
