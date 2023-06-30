@@ -20,4 +20,5 @@
 GL Player JIKI;
 GL Option FORCE;
 GL int flag[counts];
+GL int image[counts];
 GL int stagecount;

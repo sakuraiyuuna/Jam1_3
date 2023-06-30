@@ -6,13 +6,14 @@
 
 //ï`âÊÇ…Ç¬Ç¢ÇƒÇÃÉvÉçÉOÉâÉÄ
 void GRAPH_JIKI() {
+	DrawRotaGraph(JIKI.x, JIKI.y, 0.1, 0, image[2], TRUE);
 	DrawCircle(JIKI.x, JIKI.y, JIKI.r,
 		GetColor(255, 255, 255), TRUE);
 }
 
 void GRAPH_OPTION() {
-	DrawCircle(FORCE.x, FORCE.y, FORCE.r,
-		GetColor(255, 255, 0), FALSE);
+	DrawRotaGraph(FORCE.x-1, FORCE.y+1.9, 0.09, 0, image[1], TRUE);
+	//DrawCircle(FORCE.x, FORCE.y, FORCE.r,GetColor(255, 0, 0), FALSE);
 }
 
 void GRAPH_MAIN() {

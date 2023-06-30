@@ -28,7 +28,7 @@ void Omove() {
 		FORCE.Ocount = 0;
 	}
 	if (FORCE.Oflag == 0) {
-		gx = JIKI.x + FORCE.r;
+		gx = JIKI.x + FORCE.r+50;
 		gy = JIKI.y;
 		if (gx != FORCE.x || gy != FORCE.y) {
 			s = gx - FORCE.x;
@@ -36,11 +36,11 @@ void Omove() {
 			t = sqrt(s * s + c * c);
 			FORCE.x += s / t * FORCE.speed;
 			FORCE.y += c / t * FORCE.speed;
-			if (FORCE.x >= JIKI.x + FORCE.r + JIKI.r && s > 0) {
-				FORCE.x = JIKI.x + FORCE.r + JIKI.r;
+			if (FORCE.x >= JIKI.x + FORCE.r + 50 && s > 0) {
+				FORCE.x = JIKI.x + FORCE.r + 50;
 			}
-			if (FORCE.x <= JIKI.x + FORCE.r + JIKI.r && s < 0) {
-				FORCE.x = JIKI.x + FORCE.r + JIKI.r;
+			if (FORCE.x <= JIKI.x + FORCE.r + 50 && s < 0) {
+				FORCE.x = JIKI.x + FORCE.r + 50;
 			}
 			if (FORCE.y >= JIKI.y && c > 0) {
 				FORCE.y = JIKI.y;
@@ -58,7 +58,7 @@ void Omove() {
 			}
 		}
 	}
-	if (HIT_ENonEN(JIKI.x, JIKI.y, JIKI.r, FORCE.x, FORCE.y, FORCE.r) == TRUE) {
+	if (HIT_ENonEN(JIKI.x + 50 , JIKI.y, JIKI.r, FORCE.x, FORCE.y, FORCE.r) == TRUE) {
 		FORCE.Ocount = 0;
 		FORCE.Oflag = 0;
 	}

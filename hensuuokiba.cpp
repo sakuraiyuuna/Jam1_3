@@ -9,4 +9,5 @@
 Player JIKI;
 Option FORCE;
 int flag[counts];
+int image[counts];
 int stagecount;
