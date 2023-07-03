@@ -23,6 +23,10 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		Pmove();
 		Omove();
 		GRAPH_MAIN();
+
+		STAGE1_STERT();
+		updateEnemy();
+
 		DrawFormatString(0, 0, GetColor(255, 255, 255), "%f,%f,%d", FORCE.x, FORCE.y, FORCE.Ocount);
 		ScreenFlip();
 		ClearDrawScreen();

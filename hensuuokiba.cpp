@@ -10,6 +10,8 @@ int scenecount;
 
 Player JIKI;
 Option FORCE;
+Enemy MONSTER[Monsternum];
+Ballet MONSTERSHOT[Monster_shotnum];
 int flag[counts];
 int image[counts];
 int stagecount;

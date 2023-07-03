@@ -20,6 +20,8 @@
 GL int scenecount;
 GL Player JIKI;
 GL Option FORCE;
+GL Enemy MONSTER[Monsternum];
+GL Ballet MONSTERSHOT[Monster_shotnum];
 GL int flag[counts];
 GL int image[counts];
 GL int stagecount;

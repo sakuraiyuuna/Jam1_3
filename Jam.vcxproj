@@ -87,6 +87,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BACKGROUND.cpp" />
+    <ClCompile Include="ENEMY.cpp" />
+    <ClCompile Include="ENEMYGRAPH.cpp" />
+    <ClCompile Include="ENEMYPATTERN.cpp" />
     <ClCompile Include="GRAPH.cpp" />
     <ClCompile Include="hensuuokiba.cpp" />
     <ClCompile Include="hit.cpp" />
@@ -97,6 +100,7 @@
     <ClCompile Include="player.cpp" />
     <ClCompile Include="pshot.cpp" />
     <ClCompile Include="scene.cpp" />
+    <ClCompile Include="stage.cpp" />
     <ClCompile Include="winmain.cpp" />
   </ItemGroup>
   <ItemGroup>

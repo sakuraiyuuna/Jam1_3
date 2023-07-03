@@ -23,6 +23,7 @@ struct Ballet {
 	double angle;//向き
 	int pene;//貫通力
 	double speed;//スピード
+	double cooltime;
 	int cnt;//カウント
 	int movetype;//移動パターン
 	int damege;
@@ -33,11 +34,15 @@ struct Ballet {
 struct Enemy {
 	int flag;
 	int count;
-	double x;
-	double y;
-	int MovePattern;
 	int HP;
+	double x;
+	double vx;
+	double y;
+	double vy;
+	double r;
 	double speed;
+	int MovePattern;
+	int knd;//画像の種類
 };
 
 struct Circle {

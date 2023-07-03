@@ -10,6 +10,14 @@ void GRAPH_MAIN();
 void Pmove();
 //option.cpp
 void Omove();
+//ENEMY.cpp
+void initMonstertype1(int number);
+//ENEMYPATTERN.cpp
+void updateEnemy();
+//ENEMYGRAPH.cpp
+void GRAPH_ENEMY();
+//STAGE.cpp
+void STAGE1_STERT();
 //hit.cpp
 bool HIT_ENonEN(double x1, double y1, double r1,
 	double x2, double y2, double r2);

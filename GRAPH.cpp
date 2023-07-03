@@ -24,4 +24,5 @@ void GRAPH_OPTION() {
 void GRAPH_MAIN() {
 	GRAPH_JIKI();
 	GRAPH_OPTION();
+	GRAPH_ENEMY();
 }

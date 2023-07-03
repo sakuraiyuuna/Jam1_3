@@ -35,6 +35,18 @@
     <ClCompile Include="pshot.cpp">
       <Filter>ソースファイル\PLAYER</Filter>
     </ClCompile>
+    <ClCompile Include="ENEMY.cpp">
+      <Filter>ソースファイル\ENEMY</Filter>
+    </ClCompile>
+    <ClCompile Include="ENEMYPATTERN.cpp">
+      <Filter>ソースファイル\ENEMY</Filter>
+    </ClCompile>
+    <ClCompile Include="ENEMYGRAPH.cpp">
+      <Filter>ソースファイル\GRAPH</Filter>
+    </ClCompile>
+    <ClCompile Include="stage.cpp">
+      <Filter>ソースファイル\STAGE</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="ソースファイル">
@@ -54,6 +66,9 @@
     </Filter>
     <Filter Include="ソースファイル\PLAYER">
       <UniqueIdentifier>{1aa172b4-c0ca-4483-b9d9-29a38ee8df2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\STAGE">
+      <UniqueIdentifier>{14f6ea08-9af4-4f25-8ca7-6e70230bb540}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
