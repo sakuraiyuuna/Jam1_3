@@ -17,6 +17,6 @@ void STAGE1_STERT()
 			id++;
 		}
 	}
-	DrawFormatString(0, 200, GetColor(255, 255, 0), "%d “_", stagetime);
+	//DrawFormatString(0, 200, GetColor(255, 255, 0), "%d “_", stagetime);
 	stagetime++;
 }
